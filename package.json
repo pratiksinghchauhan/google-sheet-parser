@@ -1,0 +1,21 @@
+{
+  "name": "google-sheet-parser",
+  "version": "1.0.0",
+  "description": "count rows of a google sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pratiksinghchauhan/google-sheet-parser.git"
+  },
+  "author": "pratiksinghchauhan",
+  "license": "ISC",
+  "dependencies": {
+    "google-spreadsheet": "^2.0.4",
+    "hapi": "^16.6.2",
+    "hapi-cron-job": "^2.0.1"
+  }
+}
